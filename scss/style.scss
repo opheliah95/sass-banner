@@ -1,13 +1,38 @@
-$light-color: lightblue;
+$light-color: rgb(23, 107, 209);
 $font-stack: Arial, Helvetica, sans-serif;
 $line-height: 1.6;
+$font-color: white;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
 
-*{
+
+* {
     box-sizing: border-box;
 }
 
-body{
-    background:$light-color;
-    font-family:$font-stack;
+body {
+    background: $light-color;
+    font-family: $font-stack;
     line-height: $line-height;
+    color: $font-color;
+}
+
+.showcase {
+    background-color: $primary-color;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        padding: 15px;
+    }
+    }
+    
 }
